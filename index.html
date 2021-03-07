@@ -162,6 +162,62 @@
     <p>
 
     </p>
+    
+     <div class="flex-container">
+        <div>:)</div>
+        <div>I ❤︎ Flex Containers </div>
+        <div>:)</div>
+
+    </div>
+
+<style>
+    .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    }
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(3) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+    .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: space-around
+}
+.container:after {
+  display: block;
+  content: " placeholder ";
+  margin: 10px;
+  flex: 999 999 auto;
+}
+.item {
+  flex: 0 0 auto;
+  margin: 10px;
+}
+  </style>  
+
 
 
 </body>
